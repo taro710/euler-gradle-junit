@@ -1,4 +1,0 @@
-projectEuler/Problem1Test.java
- projectEuler.Problem1Test
-projectEuler/Problem2Test.java
- projectEuler.Problem2Test
