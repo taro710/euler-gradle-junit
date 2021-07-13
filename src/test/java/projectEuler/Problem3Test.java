@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Problem3Test {
         @Test
-        @DisplayName("euler.Problem2 Test")
+        @DisplayName("euler.Problem3 Test")
         // TODO 処理時間短縮
         void check() {
             assertEquals(Problem3.answer(600851475143L),6857);

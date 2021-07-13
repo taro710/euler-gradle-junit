@@ -1,16 +1,17 @@
 package projectEuler;
 
-import euler.Problem4;
 import euler.Problem5;
+import euler.Problem6;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Problem5Test {
+public class Problem6Test {
         @Test
-        @DisplayName("euler.Problem5 Test")
+        @DisplayName("euler.Problem6 Test")
         void check() {
-            assertEquals(Problem5.answer(20),232792560);
+            assertEquals(Problem6.answer(10),2640);
+            assertEquals(Problem6.answer(100),25164150);
         }
 }
