@@ -6,7 +6,7 @@ public class Problem16 {
   public static void main(String... args) {
     System.out.println("#####################");
 
-    System.out.println(answer(2, 1000));
+    System.out.println(answer(2, 2));
 
     System.out.println("#####################");
   }
