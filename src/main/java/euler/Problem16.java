@@ -6,14 +6,14 @@ public class Problem16 {
   public static void main(String... args) {
     System.out.println("#####################");
 
-    System.out.println(answer());
+    System.out.println(answer(2, 1000));
 
     System.out.println("#####################");
   }
 
-  public static long answer() {
-    BigInteger bigInteger = BigInteger.TWO;
-    BigInteger pow = bigInteger.pow(1000);
+  public static long answer(long radix, int index) {
+    BigInteger bigInteger = BigInteger.valueOf(radix);
+    BigInteger pow = bigInteger.pow(index);
     String string = pow.toString();
     System.out.println(string);
     String[] strings = string.split("");
