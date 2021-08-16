@@ -6,3 +6,5 @@ build
 
 ### Mac ###
 .DS_Store
+
+src/main/java/euler/test
